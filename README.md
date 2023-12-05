@@ -31,6 +31,7 @@ $ docker-compose exec apartment_kanri_api bash
 ## Run set up for the project
 ```
 $ composer upgrade && composer install
+$ php artisan key:generate
 $ php artisan migrate
 $ php artisan db:seed
 $ php artisan serve
